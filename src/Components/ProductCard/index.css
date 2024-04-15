@@ -1,0 +1,67 @@
+.product-card{
+    height:480px;
+    width: 280px;
+    border-radius: 4px;
+    margin: 25px;
+}
+
+.thumbnail{
+   height:310px ;
+   width:91% ;
+   border-radius: 4px;
+   text-align: center;
+   
+}
+
+.product-name{
+    color:#E5DFD9;
+    font-size:20px;
+    font-family:Encode Sans ;
+    font-weight: 500;
+
+}
+
+.price-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prices{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.price{
+    color:#E5DFD9;
+    font-size:18px;
+    font-family:Encode Sans ;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.markingPrice{
+    color:#E5DFD9;
+    font-size:11px;
+    font-family:Encode Sans ;
+    font-weight: 400;
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+
+.discount{
+    color:#2FC14F;
+    font-size:11px;
+    font-family:Encode Sans ;
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+.shopping-bag{
+   height: 25px;
+   width: 25px;
+   color:#E5DFD9 ;
+   cursor: pointer;
+}

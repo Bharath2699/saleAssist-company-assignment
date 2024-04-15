@@ -1,0 +1,39 @@
+.top-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ height: 33px;
+ width:100%;
+ background-color:  #0C0C0C;
+ padding:auto;
+ 
+ 
+}
+.title{
+    position: relative;
+    font-family: Comme;
+    font-size:20px ;
+    font-weight: 400;
+    line-height:28.34px ;
+    letter-spacing: 55%;
+    color:#E5DFD9;
+   top: 10px;
+   left: 10px;
+    
+}
+.profile{
+    height: 18px;
+    width:18px;
+}
+.top-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 15px;
+    top: 10px;
+    
+}
